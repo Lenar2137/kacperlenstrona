@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
+    <title>Galeria - Moja Strona</title>
+    <meta name="description" content="Przeglądaj naszą galerię zdjęć.">
+    <meta name="author" content="Moja Strona">
+    <meta property="og:title" content="Galeria - Moja Strona">
+    <meta property="og:description" content="Przeglądaj naszą galerię zdjęć.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://mojastrona.pl/gallery.html">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo Moja Strona">
+        </div>
         <h1>Galeria</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Strona Główna</a></li>
                 <li><a href="info.html">Informacje</a></li>
-                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="gallery.html" class="active">Galeria</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
@@ -21,17 +30,8 @@
     <main>
         <h2>Nasza Galeria</h2>
         <div class="gallery">
-            <div class="gallery-item">
-                <img src="narciarstwo.jpeg" alt="Opis obrazu 1">
-                
-            </div>
-            <div class="gallery-item">
-                <img src="plywanie.jpeg" alt="Opis obrazu 2">
-                
-            </div>
-            
-            </div>
-            
+            <a href="narciarstwo.jpeg" target="_blank"><img src="narciarstwo.jpeg" alt="Opis obrazu 1"></a>
+            <a href="plywanie.jpeg" target="_blank"><img src="plywanie.jpeg" alt="Opis obrazu 2"></a>
         </div>
     </main>
     <footer>
